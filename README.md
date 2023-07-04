@@ -49,7 +49,7 @@ There's a few way to use these HuggingFace weights, all with different flavors:
 <a name="dependencies"></a>
 
 The repo is built with:
-- Pytorch Lightning (a training library)
+- Pytorch Lightning 1.8.6 (a training library)
 - Pytorch 1.13
 - Hydra (a config oriented ML library)
 - Python 3.8+
