@@ -64,12 +64,12 @@ git clone https://github.com/TheSequencingCenter/hyenadna.git
 - Create a conda environment
 
 ```
-conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==1.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
 - install requirements:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 - install Flash Attention, these [notes](https://github.com/HazyResearch/safari#getting-started) will be helpful.
 ```
