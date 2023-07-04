@@ -48,11 +48,16 @@ There's a few way to use these HuggingFace weights, all with different flavors:
 ## Dependencies
 <a name="dependencies"></a>
 
-For this repo, let's start with the dependancies that are needed.  The repo is built using Pytorch Lightning (a training library) and Hydra a config oriented ML library. (It'll be super helpful to get familiar with those tools.)
+For this repo, let's start with the dependancies that are needed.  The repo is built with:
+- Pytorch Lightning (a training library)
+- Pytorch 1.13
+- Hydra (a config oriented ML library)
+- Python 3.8+
+- CUDA 11.7
 
-- clone repo, cd into it
-- create a conda environment, with Python 3.8+
-- The repo is developed with Pytorch 1.13, using cuda 11.7
+- Clone the repo
+- cd into it
+- Create a conda environment
 
 ```
 conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
