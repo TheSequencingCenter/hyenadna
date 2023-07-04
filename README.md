@@ -56,7 +56,10 @@ The repo is built with:
 - CUDA 11.7
 
 ## Installation
-- Clone the repo (git clone https://github.com/TheSequencingCenter/hyenadna.git)
+- Clone the repo
+```
+git clone https://github.com/TheSequencingCenter/hyenadna.git
+```
 - cd into hyenadna
 - Create a conda environment
 
