@@ -77,7 +77,7 @@ cd hyenadna
 git submodule update --init
 cd flash-attention
 git submodule update --init
-pip install -e .
+pip3 install -e .
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
