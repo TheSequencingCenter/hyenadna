@@ -71,6 +71,10 @@ conda install pytorch==1.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 pip3 install -r requirements.txt
 ```
+- install torch
+```
+pip3 install torch
+```
 - install Flash Attention. These [notes](https://github.com/HazyResearch/safari#getting-started) are helpful.
 ```
 cd hyenadna
