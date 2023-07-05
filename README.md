@@ -73,7 +73,7 @@ pip3 install -r requirements.txt
 ```
 - install Flash Attention. These [notes](https://github.com/HazyResearch/safari#getting-started) are helpful.
 ```
-cd hyena-dna
+cd hyenadna
 git submodule update --init
 cd flash-attention
 git submodule update --init
