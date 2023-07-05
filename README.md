@@ -65,7 +65,10 @@ git clone https://github.com/TheSequencingCenter/hyenadna.git
 ```
 pip3 install numpy --pre torch --force-reinstall --index-url https://download.pytorch.org/whl/nightly/cu117
 ```
-
+- install requirements
+```
+pip3 install -r requirements.txt
+```
 
 
 
@@ -75,15 +78,6 @@ pip3 install numpy --pre torch --force-reinstall --index-url https://download.py
 ```
 conda install pytorch==1.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 conda install pytorch==1.13.0 pytorch-cuda=11.8 -c pytorch -c nvidia
-```
-
-- install requirements
-```
-pip3 install -r requirements.txt
-```
-- install torch
-```
-pip3 install torch
 ```
 - install Flash Attention. These [notes](https://github.com/HazyResearch/safari#getting-started) are helpful.
 ```
