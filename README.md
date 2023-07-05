@@ -85,7 +85,7 @@ pip3 install -e .
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
-cd flash-attn
+cd flash_attn
 cd csrc/layer_norm
 pip3 install .
 ```
