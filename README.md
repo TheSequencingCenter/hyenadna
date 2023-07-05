@@ -86,7 +86,7 @@ pip3 install -e .
 - optional fused layers for speed (takes a bit of time)
 ```
 # from inside flash-attn/
-cd csrc/layer_norm && pip install .
+cd csrc/layer_norm && pip3 install .
 ```
 
 ## Quick Entry point 
