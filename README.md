@@ -50,7 +50,7 @@ There's a few way to use these HuggingFace weights, all with different flavors:
 
 The repo is built with:
 - Pytorch Lightning 1.8.6 (a training library)
-- Pytorch 1.13.0
+- Pytorch 2.0
 - Hydra (a config oriented ML library)
 - Python 3.8+
 - CUDA 11.7
