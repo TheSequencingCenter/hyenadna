@@ -64,6 +64,7 @@ git clone https://github.com/TheSequencingCenter/hyenadna.git
 - install PyTorch 2.0
 ```
 pip3 install numpy --pre torch --force-reinstall --index-url https://download.pytorch.org/whl/nightly/cu117
+pip3 install torch torchvision torchaudio --force-reinstall --index-url https://download.pytorch.org/whl/cu118
 ```
 - install requirements
 ```
