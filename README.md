@@ -65,6 +65,7 @@ git clone https://github.com/TheSequencingCenter/hyenadna.git
 
 ```
 conda install pytorch==1.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==1.13.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 - install requirements
