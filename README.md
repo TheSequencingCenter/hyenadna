@@ -67,11 +67,11 @@ git clone https://github.com/TheSequencingCenter/hyenadna.git
 conda install pytorch==1.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
-- install requirements:
+- install requirements
 ```
 pip3 install -r requirements.txt
 ```
-- install Flash Attention, these [notes](https://github.com/HazyResearch/safari#getting-started) will be helpful.
+- install Flash Attention. These [notes](https://github.com/HazyResearch/safari#getting-started) are helpful.
 ```
 cd hyena-dna
 git submodule update --init
