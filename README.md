@@ -86,7 +86,8 @@ pip3 install -e .
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
-cd csrc/layer_norm
+cd csrc
+cd layer_norm
 pip3 install .
 ```
 
