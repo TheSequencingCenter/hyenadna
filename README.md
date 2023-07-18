@@ -90,6 +90,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 #git submodule update --init
 #pip3 install -e .
 sudo apt-get install ninja-build
+pip3 install flash-attn --no-build-isolation
 
 ```
 - optional fused layers for speed (takes a bit of time)
