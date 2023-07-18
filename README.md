@@ -89,6 +89,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 #cd flash-attention
 #git submodule update --init
 #pip3 install -e .
+conda install -c conda-forge ninja
+
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
