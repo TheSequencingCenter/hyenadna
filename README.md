@@ -84,11 +84,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 ```
 - install Flash Attention. These [notes](https://github.com/HazyResearch/safari#getting-started) are helpful.
 ```
-cd hyenadna
-git submodule update --init
-cd flash-attention
-git submodule update --init
-pip3 install -e .
+#cd hyenadna
+#git submodule update --init
+#cd flash-attention
+#git submodule update --init
+#pip3 install -e .
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
