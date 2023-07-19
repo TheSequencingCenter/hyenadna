@@ -95,6 +95,7 @@ pip3 install flash-attn --no-build-isolation
 ```
 - optional fused layers for speed (takes a bit of time)
 ```
+cd flash-attention
 cd csrc
 cd layer_norm
 pip3 install .
