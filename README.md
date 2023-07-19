@@ -115,9 +115,9 @@ Let's describe this.
 <a name="quick"></a>
 - `-m` lets you run the script as a module (no .py used in name).  
 - `train` is calling the main `train.py` script that launches all training / finetuning experiments.
-- `wandb=null`, this connects to wandb too, but for quick testing I set to null.  Otherwise you can use something like `wandb.group=custom_name_here`.
+- `wandb=null` connects to wandb but for quick testing it's set to null.  Otherwise set it to something like `wandb.group=custom_name_here`.
 - `experiment` is passing the config for `experiment`, using the `genomic_benchmark_scratch.yaml` file, located in `configs/experiments/hg38/`.
-- You can pass other configs in the command line the same way, eg, `dataset=your_custom_datset_name`.  But more on that later.
+- You can pass other configs in the command line the same way, i.e `dataset=your_custom_datset_name`.  But more on that later.
 
 ## Loading pretrained weights
 <a name="loadweights"></a>
