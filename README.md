@@ -100,10 +100,6 @@ cd csrc
 cd layer_norm
 pip3 install .
 ```
-- TODO
-```
-pip3 install dropout-add-layer-norm
-```
 
 ## Quick Entry point 
 
