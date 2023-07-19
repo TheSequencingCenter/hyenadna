@@ -102,7 +102,7 @@ pip3 install .
 
 ## Quick Entry point 
 
-A quick start for this the repo is to train from scratch on a small genomics dataset. Let's try this just to see if things are set up ok.
+A quick start for this repo is to train it on a small genomics dataset. Let's try this just to see if things are set up ok.
 
 The command below should auto-download a small dataset into `data/`. It uses a small 2 layer HyenaDNA model with a linear decoder (head) on a binary classification task. It already beats the SotA by 7 pts (one task from GenomicBenchmarks), but we can do even better with a pretrained model.
 
