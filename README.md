@@ -107,7 +107,7 @@ A quick start for this repo is to train it on a small genomics dataset. Let's tr
 The command below should auto-download a small dataset into `data/`. It uses a small 2 layer HyenaDNA model with a linear decoder (head) on a binary classification task. It already beats the SotA by 7 pts (one task from GenomicBenchmarks), but we can do even better with a pretrained model.
 
 ```
-python -m train wandb=null experiment=hg38/genomic_benchmark_scratch
+python3 -m train wandb=null experiment=hg38/genomic_benchmark_scratch
 ```
 
 Let's describe this.
